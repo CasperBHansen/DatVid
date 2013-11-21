@@ -1,4 +1,4 @@
-VtDat
+DatVid
 =====
 
-Working repository for the course VtDat at the University of Copenhagen
+Working repository for the course DatVid at the University of Copenhagen
