@@ -1,5 +1,7 @@
 \documentclass{article}
 
+\usepackage[utf8]{inputenc}
+
 \title{A comparison of “Computer Science Curriculum 2013” and Peter Naurs description of the field of datalogy}
 \author{Adam Honoré, Casper B. Hansen and Maya Saietz}
 
@@ -12,7 +14,7 @@ by Peter Naur. Here, we present a comparison between the Copenhagen Tradition, a
 Science Curriculum 2013, which was formulated by the ACM and IEEE.
 
 \section{Datalogy in contrast to Computer science}
-There should be a clear distinction between the terms ``Computer Science'' and ``Datalogy''. As the article[2] puts it:
+There should be a clear distinction between the terms ``Computer Science'' and ``Datalogy''. As the article\cite{froekjaer88} puts it:
 
 \begin{quote}
     ``ACM Curriculum seems to make an attempt to cover the field in an almost encyclopedic manner, apparently making sure to
@@ -27,9 +29,9 @@ computer science, and not to solve problems in other fields.
 
 While the ACM curriculum has been changed since this was written, and now admits that it is simply not possible to cover
 everything, it still puts a lot of topics in the category of ``core'' topics. In contrast, Naur argues for a focus on
-data, data representation and data processing[1].
+data, data representation and data processing\cite{naur66}.
 
-The article[2] makes it very clear that from the very early stages of its conception, education in computer science has
+The article\cite{froekjaer88} makes it very clear that from the very early stages of its conception, education in computer science has
 been lacking important aspects of the discipline, such as project work and practical work. Recognizing this neglect,
 Peter Naur formulates, in collaboration with several people, what is known today as datalogy.
 
@@ -38,21 +40,21 @@ puts many more topics in the Core category. Although, in later years, particular
 has acknowledged more and more, many of the important points Peter Naur had early on.
 
 \section{Computer Science Curriculum 2013}
-The curricula guidelines presented [3] by the ACM reveals that the ACM/IEEE are only just beginning to grasp the points
+The curricula guidelines presented \cite{acm13} by the ACM reveals that the ACM/IEEE are only just beginning to grasp the points
 made by Peter Naur earlier in the history of the development of computer science as an education. E.g. it had previously
 been the conviction at ACM that the focus of the curriculum should be on all recent developments, current techniques and
-give the students a full understanding of every topic [2] within computer science. Bullet 6 states that \emph{``While the range
+give the students a full understanding of every topic \cite{froekjaer88} within computer science. Bullet 6 states that \emph{``While the range
 of relevant topics has expanded, the size of undergraduate education has not. Thus, CS2013 must carefully choose among
-topics and recommend the essential elements''}, which is closer to what Naur said [2] early on; that in computer science
+topics and recommend the essential elements''}, which is closer to what Naur said \cite{froekjaer88} early on; that in computer science
 we should focus our teaching efforts on emphasizing \emph{``the underlying ideas and principles, while omitting many particular
-instances of the various notions''}. Likewise, bullet 7 of [3] is in direct agreement with Naurs early views [2], that
+instances of the various notions''}. Likewise, bullet 7 of \cite{acm13} is in direct agreement with Naurs early views \cite{froekjaer88}, that
 \emph{``Comprehensive project activity is an integral part of the curriculum, thus presenting theory as an aspect of realistic
 solutions known primarily through actual experience''}.
 
 \section{Similarities}
 Even though the ACM/IEEE and Peter Naur disagreed on a great many things, there are of course also a lot of which they
 did, and still do agree on. For instance, the applicability of the field is typically combined with other fields, as
-described in both [2] and [3].
+described in both \cite{froekjaer88} and \cite{acm13}.
 
 Naur’s main point is that it is important to focus on some core concepts, rather than trying to teach all the specific
 techniques. The ACM also says that it is impossible to cover the entire field, and that it is necessary to select
@@ -91,5 +93,23 @@ In light of how datalogy has preserved its core values and curriculum virtually 
 moved more towards this set of values, and changed their curriculum accordingly. We see that the gap between these has
 been decreased over time, but a gap remains nevertheless. Namely, the ACM still tries to cover far more topics than what
 Peter Naur believes to be essential.
+
+\newpage
+\begin{thebibliography}{9}
+    \bibitem{naur66}
+        Peter Naur,
+        Datalogi -- Læren om data,
+        Forelæsning 1966
+
+    \bibitem{froekjaer88}
+        Edda Sveinsdottir \& Erik Frøkjær,
+        Datalogy -- The Copenhagen Tradition of Computer Science,
+        1988
+
+    \bibitem{acm13}
+        Computer Science Curricula 2013,
+        Final Report 0.9 (pre-release version),
+        October 2013
+\end{thebibliography}
 
 \end{document}
