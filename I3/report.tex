@@ -1,0 +1,217 @@
+\documentclass[a4paper]{article}
+
+
+%========== PACKAGES ==========%
+
+% \usepackage{a4wide} % save a few rainforests
+\usepackage{amsmath,amssymb} % mathematical notation
+\usepackage[danish]{babel}
+\usepackage{color} % pretty colors
+\usepackage{fancyhdr} % make things look fancy
+\usepackage{float} % put things exactly where i tell you
+\usepackage{listings} % code listings
+\usepackage[utf8]{inputenc} % can i has UTF-8 plox
+
+
+%========== DEFINITIONS ==========%
+
+\definecolor{c_comment}{rgb} 	{0.38, 0.62, 0.38}
+\definecolor{c_keyword}{rgb} 	{0.10, 0.10, 0.81}
+\definecolor{c_identifier}{rgb} {0.00, 0.00, 0.00}
+\definecolor{c_string}{rgb} 	{0.50, 0.50, 0.50}
+
+
+%========== SETTINGS ==========%
+
+\lstset
+{
+	numbers=left,
+	frame=single,
+	basicstyle=\footnotesize\ttfamily,
+	tabsize=4,
+	% colors
+	commentstyle=\color{c_comment},
+	keywordstyle=\color{c_keyword},
+	identifierstyle=\color{c_identifier},
+	stringstyle=\color{c_string}
+}
+
+
+%========== META DATA ==========%
+
+\title
+{
+	{\large Theory of Science for Computer Science}\\
+	Individual Assignment 3
+}
+
+\author
+{
+	Casper B. Hansen\\
+	University of Copenhagen\\
+	Department of Computer Science\\
+	{\tt fvx507@alumni.ku.dk}
+}
+
+\date{\today}
+
+
+%========== DOCUMENT ==========%
+
+\begin{document}
+
+\clearpage
+\maketitle
+\thispagestyle{empty}
+
+\newpage
+\section{Redegørelse}
+
+\subsection{Kan Peter Hansen forlange at få fjernet fotografiet fra
+hjemmesiden?}
+I det pågældende tilfælde forpligter databehandleren Jens Nørregård sig til,
+at oplyse ophavsmanden fotograf Peter Hansen om brugen af materialet, som er
+indbefattet af loven om ophavsret\cite{ophav} jvf. §70, stk. 1. I denne
+kontekst har ophavsrettens indehaver Peter Hansen jvf. §38, stk. 1--7, krav på
+vederlag for sit værk. Hvis dette krav ikke mødes jvf. §76, stk. 1 i kraft, og
+medfører således straf for databehandleren Peter Hansen.
+
+I det store hele, så er det §2 stk. 1--4 der krænkes, som indleder\cite{ophav}
+``Ophavsretten medfører, med de i denne lov angivne indskrænkninger, eneret
+til at råde over værket ved at fremstille eksemplarer af det og ved at gøre
+det tilgængeligt for almenheden i oprindelig eller ændret skikkelse'', og det
+er her tilfældet, at ophavsmanden Peter Hansen's rettigheder er jvf. nævnte
+paragraf, blevet krænket af databehandleren Jens Nørregård.
+
+Som følge af overtrædelse heraf, vil det være op til Peter Hansen om hvorvidt
+han, som ophavsrettighedens indehaver, ønsker at afvikle ved §38, stk. 1--7 og
+modtage vederlag for værkets anvendelse, eller om han ønsker dette fjernet.
+
+\subsection{Giver undersiden ``Syng med fra højskolesangbogen'' anledning til
+ophavsretslige problemer?}
+Det kan jeg ikke svare på med sikkerhed\footnote{Jeg forsøgte at undersøge
+om nogen af de daværende ophavsmænd til hhv. tekst og melodi har levende
+afkom}, og årsagen er, at jvf. §63, stk. 1--4 i bekendtgørelsen af lov om
+ophavsret\cite{ophav}, som indleder ``Ophavsretten til et værk varer, indtil
+70 år er forløbet efter ophavsmandens dødsår eller for de i §6 omhandlede
+værker efter længstlevendes dødsår''.
+
+I og med, at jeg fejlede i at producere et konkret svar på, om nogle af de
+daværende ophavsmænd havde ladet ophavsretten gå i arv, kan jeg ikke give et
+konkret svar. Jeg kan dog påpege, at hvis det er tilfældet, så vil der et
+ophavsretligt problem med undersiden. Hvis ikke, så er det fuldstændig lovligt
+og bør ikke give anledning til nogen ophavsretslige problemer.
+
+\newpage
+\subsection{Må Bøgely forære eksemplarer af Lissi Petersen's træningsprogram
+til eleverne? Og må Bøgely fremstille ekstra kopier af programmet til
+uddeling, hvis der ikke er nok til alle deltagerne? Har Ursula krænket Lissi
+Petersen's ophavsret?}
+De 50 kopier, som købt på lovlig vis ser jeg ikke nogen lov imod om Bøgely må
+{\it forære} dem væk, medmindre det indbefatter {\it videresalg}, hvilket der
+ikke oplyses om. Derimod må Bøgely ikke fremstille ekstra kopier uden samtykke
+fra ophavsmanden Lissi Petersen jvf. loven om ophavsret\cite{ophav} §12, hvor
+det som det fremgår af det pågældende tilfælde hverken er til privat brug og
+samtidig også er ved erhvervsøjemed.
+
+Såfremt Ursula's datter Lizette hører under samme husstand som moderen, er det
+fuldt ud lovligt\cite{ophav}, at ``fremstille enkelte eksemplarer i digital
+form af andre værker end edb-programmer og databaser, [hvis] det udelukkende
+sker til personlig brug for fremstilleren eller dennes husstand.'', jvf. §12,
+og derfor har Ursula {\it ikke} krænket Lissi Petersen's ophavsret.
+
+\subsection{Har Jens Nørregård skabt ophavsretslige problemer med
+databasesystemet?}
+Elevdatabasen er udviklet på kilde, som Jens Nørregård har en gyldig licens
+til at videreudvikle på og formodentlig implementere i kommerciel forbindelse,
+derfor ser jeg ingen anledning til ophavsretslige problemer her. Ligeledes må
+man formode, at siden Nina videregav hendes kildekode til Jens, har hun i
+samme forbindelse givet sin samtykke til, at Jens måtte bruge denne. Og siden
+Jørgen Olsen er medarbejder i ``Nørregård Consulting'', må man antage at den
+supplerende kode til open source koden var udarbejdet under
+ansættelseskontraktens forhold, hvor Jørgen Olsen giver afkald på denne
+ophavsret, og overdrager den til ``Nørregård Consulting'', samt open source er
+per definition åbent til fri afbenyttelse, også i kommerciel henseende. Ved
+videresalget af licensen til databaseprogrammet til højskolen forekommer der
+heller ingen ophavsretsmæssige problemer.
+
+Det der bør påpeges med henblik på databaserne er, at tidligere elever,
+lærere og oplægsholderes personoplysninger behandles, men under formodningen
+om, at disse har givet samtykke til at skolen må beholde disse data, er det
+blot redelegering af dataene fra, angiveligvis papir arkiver, over i et
+databasesystem. Hertil har Jens Nørregård selvfølgelig, som databehandler
+ansvaret for at disse oplysninger bliver behandlet på en sikker måde. Det
+samme gælder for behandlingen af leverandøroplysningerne, som også behandles.
+
+\newpage
+\section{Vurdering}
+Bøgely bør i første ombæring kontakte en advokat, hvis medvirken kunne
+afhjælpe alle de påpegede (omend ikke flere) ophavsretslige problemer, da en
+advokat er langt bedre kvalificeret til at identificere og vurdere disse
+problemer.
+
+Mit personlige bud på løsning heraf kunne være, at bla. indgå en aftale med
+Lissi Petersen om licensering af det anvendte materiale på en sådan mannér, at
+det tillader højskolen at udlån af materialet. Hvis den enkelte elev ønsker,
+at erhverve sig en kopi bør det ske udenom højskolens regi. Bed om tilladelse
+til at benytte, under forhandling med ophavsmanden Peter Hansen, det
+fotografiske materiale. Hvis ude af stand til at indgå en aftale herom bør
+materialet fjernes, for at undgå straf ved brud på lov herom. Undersøg, om de
+daværende ophavsmænd til materialet anvendt på undersiden ``Syng med fra
+højskolesangbogen'' har arvinger i live, som da vil have den nuværende
+ophavsret, eller om denne er ugyldig. Hvis det er tilfældet, anmod derved om
+tilladelse til brugen af materialet og indgå vederlagsaftale, eller fjern
+materialet.
+
+\section{Perspektivering}
+Essensen af de ophavsretslige regler er, at beskytte ophavsmandens rettigheder
+omkring det pågældende materiale. Det er i og for sig vigtigt at beskytte
+disse rettigheder, men omfanget heraf gør ofte datalogens opgave væsentligt
+mere vanskelig. Det bør i første ombæring ikke være det en datalog skal
+beskæftige sig med at undersøge, men hvis nødvendigt redelegeres videre til en
+sagkyndig på området, altså en advokat.
+
+Der er dog et endnu større problem for datalogens virke, og det er når man er
+overbevist om, at dele af ens kode er fuldkommen original, uvidende om, at den
+algoritme man har implementeret er patenteret. Dette giver anledning til mange
+unødige problemer, som datalogen skal tage sig af, og endda kan blive ruineret
+på baggrund af. Problemet opstår i, at det nu er muligt at patentere og derved
+opnå ophavsretten for abstrakte koncepter, som har en bred anvendelighed i
+datalogisk sammenhæng, hvilket gør at selvom en patent er givet til et bestemt
+formål da det blev oprettet, så gør den abstrakte natur af metodens
+beskrivelse, at den kan fortolkes og tilpasses andre anvendelses områder ---
+hvilket naturligvis kommer som direkte følge af datalogiens metodik; at
+arbejde i forskellige abstraktionslag og anvende abstrakte koncepter, hvilket
+selvfølgelig giver anledning til at beskrive metoderne i abstrakte termer, og
+derved også patent beskrivelser.
+
+I denne sammenhæng kan jeg kun pege på politikerne og bede om deres forståelse
+af, at abstrakte metoder ikke bør kunne patenteres, dog med det forbehold, at
+software, som en helhed (dvs. konkrete produkter) skal bibeholde denne
+rettighed. I sidste ende, hvis dette fortsætter, så ved ingen dataloger om de
+må skrive kode på en bestemt måde mere uden det har været igennem en advokat.
+
+Afslutningsvis, så vil jeg fremhæve en dokumentar om netop dette, som hedder
+``Patent Absurdity'', der er frit tilgængelig fra ophavsmændenes egen
+hjemmeside\footnote{Patent Absurdity ---
+{\tt http://www.patentabsurdity.com/}}, hvor læseren kan få yderligere
+information herom.
+
+\newpage
+\begin{thebibliography}{9}
+
+\bibitem{blume}
+	Peter Blume, \\
+	\emph{Den Digital Revolution --- fortællinger fra datalogiens verden,
+	Krav til informationssikkerhed}. \\
+	Datalogisk Institut ved Københavns Universitet, 2010
+
+\bibitem{ophav}
+	Kulturministeriet, \\
+	\emph{Bekendtgørelse af lov om ophavsret}. \\
+	Ophavsretsloven, Offentliggørelsesdato 09/03/2010
+
+\end{thebibliography}
+
+\end{document}
+
